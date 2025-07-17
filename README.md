@@ -6,7 +6,7 @@
 
 framework:Tensorflow,Keras
 
-DATAset:*mnist*
+DATASET:*mnist*
 
 학습이미지:50,000장
 
