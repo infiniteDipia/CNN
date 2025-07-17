@@ -12,7 +12,7 @@ DATASET:*mnist*
 
 테스트이미지:10,000장
 
-결과
+신경망 학습의 정확도와 손실 그래프
 
 
 <img width="1189" height="390" alt="image" src="https://github.com/user-attachments/assets/7227b41c-6adf-4ccb-87e4-db44a1dee1b8" />
