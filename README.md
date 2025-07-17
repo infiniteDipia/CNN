@@ -4,13 +4,13 @@
 
 ## **LeNet-5**
 
-framework:Tensorflow,Keras
+**framework**:Tensorflow,Keras
 
-DATASET:*mnist*
+**DATASET**:*mnist*
 
-학습이미지:50,000장
+**학습이미지**:50,000장
 
-테스트이미지:10,000장
+**테스트이미지**:10,000장
 
 신경망 학습의 정확도와 손실 그래프
 
