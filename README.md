@@ -4,4 +4,4 @@
 
 i use the LeNet-5 models.
 
-DATAset: mnist
+DATAset:   mnist
