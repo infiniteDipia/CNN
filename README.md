@@ -6,7 +6,7 @@
 
 **framework**:Tensorflow,Keras
 
-**DATASET**:*mnist*
+**DATASET**:*CIFAR-10*
 
 **학습이미지**:50,000장
 
