@@ -45,5 +45,12 @@
 
 ## **VGGNet**
 
+**framework**:Tensorflow,Keras
+
+**DATASET**:*cats_&_dogs*
+
+**학습이미지**:50,000장
+
+**테스트이미지**:10,000장
 
 <img width="1010" height="470" alt="download" src="https://github.com/user-attachments/assets/23975c50-ace8-4a7e-96ec-ec350d8a9f75" />
