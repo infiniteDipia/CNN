@@ -43,14 +43,22 @@
 
 -------------------------------------
 
-## **VGGNet**
+## **VGGNet16**
 
 **framework**:Tensorflow,Keras
 
-**DATASET**:*cats_&_dogs*
+**DATASET**:*cats_vs_dogs*
 
-**학습이미지**:50,000장
+**학습이미지**:18,400장
 
-**테스트이미지**:10,000장
+**테스트이미지**:4,600장
+
+신경망 학습의 정확도와 손실 그래프
 
 <img width="1010" height="470" alt="download" src="https://github.com/user-attachments/assets/23975c50-ace8-4a7e-96ec-ec350d8a9f75" />
+
+신경망 구현 도중 생긴 문제와 해결 방법
+
+VGGnet16을 구현하기 위해 conv층과 fc층을 모두 구현하여 epochs을 50으로 하고 lr는1e-4로 두어 학습하려 하였으나 학습 시간이 너무 오래걸렸고 epochs15번째쯤에 정확도가 55%부근에서 머물러서 직접 con과fc를 구현하여 학습시키는 방법보다는 미리 학습된 라이브러리를 불러와 epochs을 3으로 줄이고 adam를 사용하여 lr를 0.001로 두어 학습 시켰다.
+
+그럼에도 불구하고 학습속도가 그리 빠르지않아 prefetch를 사용하여 epochs이 끝나기전에 미리 data를 준비해주는 함수를 활용하여 학습속도를 향상시켰다.
