@@ -83,4 +83,3 @@ VGGnet16의 한계점
 
 신경망 학습의 정확도와 손실 그래프
 
-<img width="1173" height="470" alt="download" src="https://github.com/user-attachments/assets/708bf0d6-1a9e-4fb2-8f47-3cc9da4ebc19" />
