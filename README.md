@@ -84,3 +84,11 @@ VGGnet16의 한계점
 신경망 학습의 정확도와 손실 그래프
 
 <img width="1165" height="470" alt="download" src="https://github.com/user-attachments/assets/cebdcddc-523e-4844-8585-ce8eae8f3e43" />
+
+신경망 구현 후 느낀점
+GoogLenet를구현할때 vggnet보다 더 적은 파라미터를 이용하고 병렬 계산이다보니 고화질이나 정확도 측면에서 매우 좋은 결과를 보였지만 필터를 1x1,3x3,5x5를 섞어서 사용하다보니 복잡성이 증가하여 코드 구현에서의 오류가 많이 발생할 수 있다 생각했다.
+
+한계점
+병렬 계산이다 보니 코드오류 발생시 수정에 어려움이 있을거라 생각했다.
+
+GoogLenet에서부터는 vggnet보다 적은 파라미터로 더 깊은 신경망을 구현 할 수 있는데 깊은 신경망을 구현할 때 Gradient Vanishing(기울기 소실)문제가 발생 할 수 있다고 생각했다.
