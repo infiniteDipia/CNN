@@ -108,3 +108,7 @@ GoogLenet에서부터는 vggnet보다 적은 파라미터로 더 깊은 신경�
 **테스트이미지**:약4,600장
 
 신경망 학습의 정확도와 손실 그래프
+
+<img width="1010" height="448" alt="download" src="https://github.com/user-attachments/assets/f28080ab-bb5e-4b81-b448-1785f362b7bd" />
+
+
