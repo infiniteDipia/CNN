@@ -113,7 +113,7 @@ GoogLenet에서부터는 vggnet보다 적은 파라미터로 더 깊은 신경�
 
 신경망 구현 후 느낀점
 
-GoogLenet에서 더욱 깊은 층을 구현할 수록 발생하는 Vanishing Gradient를 해결하고자 잔차 학습을 이용하여 나온 ResNet-50를 구현해봤다.
+GoogLenet에서 더욱 깊은 층을 구현할 수록 발생하는 Vanishing Gradient을 해결하고자 잔차 학습을 이용하여 나온 ResNet-50을 구현해봤다.
 
 Dense(1, activation='sigmoid')를 이용하여 개와고양이를 맞춘 확률을 나타내었는데 정확도가 78%로 그리 높지는 않았다.
 
