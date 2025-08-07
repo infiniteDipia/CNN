@@ -111,4 +111,13 @@ GoogLenet에서부터는 vggnet보다 적은 파라미터로 더 깊은 신경�
 
 <img width="1010" height="448" alt="download" src="https://github.com/user-attachments/assets/f28080ab-bb5e-4b81-b448-1785f362b7bd" />
 
+신경망 구현 후 느낀점
+
+GoogLenet에서 더욱 깊은 층을 구현할 수록 발생하는 Vanishing Gradient를 해결하고자 잔차 학습을 이용하여 나온 ResNet-50를 구현해봤다.
+
+Dense(1, activation='sigmoid')를 이용하여 개와고양이를 맞춘 확률을 나타내었는데 정확도가 78%로 그리 높지는 않았다.
+
+그 이유로는 그래프에서 보이는 것처럼 Vaildation Accuracy가 흔들리는데 overfitting가능성이 보인다고 생각했다. 또 한 bach_size를 처음에 32로 잡았다가 학습이 너무 느려 128로 잡았는데 64로 잡았으면 정확도가 조금 더 개선되었을거라 생각한다.
+
+top부분과
 
